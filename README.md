@@ -267,7 +267,6 @@ SELECT * FROM Services3NF;
 SELECT * FROM ServiceTypes;
 ```
 
-Sure! Here's the expected output for each table after normalizing the database and inserting the data, in markdown format:
 
 ```
 **Expected Output for Cars2NF Table:**
