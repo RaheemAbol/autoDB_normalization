@@ -270,7 +270,7 @@ SELECT * FROM ServiceTypes;
 #### Expected Output
 
 **Cars2NF Table:**
-```
+
 +-------+---------------+---------+
 | CarID | CarModel      | OwnerID |
 +-------+---------------+---------+
@@ -284,7 +284,7 @@ SELECT * FROM ServiceTypes;
 
 **Expected Output (continued)**
 **Cars2NF Table:**
-```
+
 +-------+---------------+---------+
 | CarID | CarModel      | OwnerID |
 +-------+---------------+---------+
@@ -299,10 +299,10 @@ SELECT * FROM ServiceTypes;
 |     9 | Mercedes C-Class |   9  |
 |    10 | Volkswagen Passat |  10 |
 +-------+---------------+---------+
-```
+
 
 **Owners Table:**
-```
+
 +--------+---------------+-------------+------------+
 | OwnerID| OwnerName     | OwnerAddress| OwnerPhone |
 +--------+---------------+-------------+------------+
@@ -317,10 +317,10 @@ SELECT * FROM ServiceTypes;
 |      9 | Robert King   | 123 Oak St  | 555-5544   |
 |     10 | Emily Johnson | 456 Pine St | 555-1239   |
 +--------+---------------+-------------+------------+
-```
+
 
 **Services3NF Table:**
-```
+
 +----------+-------+-------------+--------------+
 | ServiceID| CarID | ServiceDate | ServiceTypeID|
 +----------+-------+-------------+--------------+
@@ -344,10 +344,10 @@ SELECT * FROM ServiceTypes;
 |       18 |    10 | 2021-06-10  |            1 |
 |       19 |    10 | 2021-11-20  |            8 |
 +----------+-------+-------------+--------------+
-```
+
 
 **ServiceTypes Table:**
-```
+
 +--------------+-------------------+-------------+
 | ServiceTypeID| ServiceDescription| ServiceCost |
 +--------------+-------------------+-------------+
@@ -360,4 +360,4 @@ SELECT * FROM ServiceTypes;
 |            7 | Alignment         |       150.00|
 |            8 | Brake Replacement |       200.00|
 +--------------+-------------------+-------------+
-```
+
